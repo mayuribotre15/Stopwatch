@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <img src="img/clock.jpg">
+        <h1>Stopwatch using Javascript</h1>
+        <div id="display">
+            <p><span id="hour">00</span>:<span id=min>00</span>:<span id="sec">00</span>:<span id="tens">000</span></p>
+        </div>
+        <div id="btns">
+            <button id="btn-start" class="btn" onclick="startTimer()">Start</button>
+            <button id="btn-stop" class="btn" onclick="stopTimer()">Pause</button>
+            <button id="btn-reset" class="btn" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
